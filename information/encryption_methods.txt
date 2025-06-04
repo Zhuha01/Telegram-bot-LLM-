@@ -1,0 +1,114 @@
+1️⃣ Caesar Cipher
+Created by: Julius Caesar
+
+Approximate date: 58–50 BCE
+
+Place: Ancient Rome
+
+Purpose: Secure military and political messages against unauthorized reading.
+
+How it works:
+A substitution cipher where each letter in the plaintext is shifted a fixed number of places down the alphabet.
+Example (shift by 3):
+A → D, B → E, C → F, ..., X → A, Y → B, Z → C
+
+Usage:
+Julius Caesar used this cipher to communicate confidentially with generals and allies during military campaigns.
+
+Modern relevance:
+Although easily breakable today, it’s used for educational purposes and simple puzzles. Some online games and beginner-level cryptography classes still introduce students to this cipher.
+
+2️⃣ Vigenère Cipher
+Created by: Attributed to Giovan Battista Bellaso in 1553 (often mistakenly credited to Blaise de Vigenère)
+
+Approximate date: 16th century
+
+Place: Renaissance Italy & France
+
+Purpose: Improve upon simple monoalphabetic ciphers like Caesar by introducing polyalphabetic substitution.
+
+How it works:
+Uses a keyword to determine the shift for each letter in the plaintext. Each letter of the keyword determines the Caesar shift for the corresponding letter in the message.
+Example:
+Plaintext: HELLO
+Key: KEYKE
+Result: RIJVS
+
+Usage:
+Used in diplomatic and military correspondence for centuries as one of the most secure ciphers before modern computing.
+
+Modern relevance:
+Broken in the 19th century by Charles Babbage and Friedrich Kasiski. Now primarily educational.
+
+3️⃣ Trithemius Cipher
+Created by: Johannes Trithemius
+
+Approximate date: 1508 (published posthumously in 1518)
+
+Place: Germany
+
+Purpose: Conceal written messages through a progressive shift cipher.
+
+How it works:
+Similar to Caesar, but instead of a constant shift, it increments the shift by one for each letter.
+Example (starting with shift = 1):
+A → B, B → D, C → F, D → G, E → I, etc.
+
+Usage:
+Outlined in Trithemius's book Polygraphia, one of the first printed works on cryptography. Used by scholars and secret societies.
+
+Modern relevance:
+Of mainly historical interest as a precursor to polyalphabetic ciphers like Vigenère.
+
+4️⃣ Atbash Cipher
+Created by: Ancient Hebrew scribes
+
+Approximate date: Around 600 BCE
+
+Place: Ancient Israel
+
+Purpose: Encode sacred texts or secret messages.
+
+How it works:
+A monoalphabetic substitution cipher where the alphabet is reversed.
+Example:
+A ↔ Z, B ↔ Y, C ↔ X, etc.
+Plaintext: HELLO
+Ciphertext: SVOOL
+
+Usage:
+Found in biblical texts, such as the Book of Jeremiah, where names or places were encoded.
+
+Modern relevance:
+An academic cipher used in historical cryptography studies and puzzle games.
+
+5️⃣ Daniel Defoe Cipher (Even/Odd Position Steganography)
+Created by: Referenced in cryptographic practices inspired by Daniel Defoe’s writings and early 18th-century espionage.
+
+Approximate date: 1720s
+
+Place: England
+
+Purpose: Hide a secret message by placing its letters at either even or odd positions in a string, while filling the remaining positions with random filler characters.
+
+How it works:
+The sender and receiver agree in advance whether the message letters will be placed in even or odd positions within a string. The positions not used for message letters are filled with randomly chosen characters, making the overall message appear meaningless to unintended readers.
+
+Example (message in even positions):
+
+Secret message: HELLO
+
+Generated ciphertext (with message in even positions):
+A H Q E Z L R L X O
+Positions 2, 4, 6, 8, 10 → H, E, L, L, O
+Other positions: random filler letters.
+
+Example (message in odd positions):
+H A E Q L Z L R O X
+Positions 1, 3, 5, 7, 9 → H, E, L, L, O
+
+Usage:
+Used historically for covert communication, where secrecy relied on knowing which positions contained the actual message. Anyone intercepting the message would see a random string unless aware of the even/odd rule.
+
+Modern relevance:
+Rarely used in practical cryptography today, but often cited as a classic example of manual steganography techniques in cryptography history.
